@@ -1,5 +1,5 @@
 public class Main {
-    static int MaxElem(int[] a, int i) {
+    public static int MaxElem(int[] a, int i) {
         int m = 0;
         if (i < a.length) {
             m = a[i];
