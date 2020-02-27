@@ -1,5 +1,5 @@
 public class Main {
-    static float degree(int a, int b) {
+    public static float degree(int a, int b) {
         if (b == 0){
             return 1;
         }
