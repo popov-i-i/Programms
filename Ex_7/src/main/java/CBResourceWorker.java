@@ -50,7 +50,7 @@ public class CBResourceWorker implements ResourceWorker {
             }
             if(i == currencyElements.getLength()-1){
                 out.delete();
-                throw new UserException("Проверьте корректность введенного CharCode и повторите ввод. Приме идентификатора: USD, JPY и т.д.");
+                throw new UserException("Проверьте корректность введенного CharCode");
             }
         }
         out.delete();
